@@ -25,6 +25,8 @@ const AddTaskModal = ({ closeModal, setTaskList }) => {
             previousTasks.push(task);
             setTaskList(previousTasks);
             window.localStorage.setItem("tasksArray", JSON.stringify(previousTasks));
+
+            form.submit();
         } else {
             setAlertText(true);
         }
@@ -32,11 +34,6 @@ const AddTaskModal = ({ closeModal, setTaskList }) => {
         setTimeout(() => {
             setAlertText(false);
         }, 3000)
-
-        console.log(task);
-        console.log(previousTasks);
-
-        form.submit();
     }
 
     return (
