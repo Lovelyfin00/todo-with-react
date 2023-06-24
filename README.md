@@ -4,7 +4,7 @@ Welcome to the Awesome Todo App! This is a feature-rich and user-friendly applic
 
 ## Live Demo - Get a Sneak Peek!
 
-Eager to see Todo app in action? Take a virtual stroll through the application and start planning your taks. Check out the [live demo here.](https://lovelyfin00.github.io/todo-with-react/)
+Eager to see Todo app in action? Take a virtual stroll through the application and start planning your taks. Check out the [live demo here.](https://simple-todo-with-love.netlify.app/)
 
 ![image](https://github.com/Lovelyfin00/todo-with-react/assets/38161296/af74e4eb-83f9-459c-a073-336d3b307006)
 
